@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body>
+    <div>
+        <h1>Calculator</h1>
+        
+            <input type="text" id="num" style="width: 245px; height: 40px;" readonly><br><br>
+            <button type="button" onclick="disp('1')" class="btn btn-grey">1</button>
+            <button type="button" onclick="disp('2')" class="btn btn-grey">2</button>
+            <button type="button" onclick="disp('3')" class="btn btn-grey">3</button>
+            <button type="button" onclick="disp('+')" class="btn btn-yellow">+</button><br>
+            <button type="button" onclick="disp('4')" class="btn btn-grey">4</button>
+            <button type="button" onclick="disp('5')" class="btn btn-grey">5</button>
+            <button type="button" onclick="disp('6')" class="btn btn-grey">6</button>
+            <button type="button" onclick="disp('-')" class="btn btn-yellow">-</button><br>
+            <button type="button" onclick="disp('7')" class="btn btn-grey">7</button>
+            <button type="button" onclick="disp('8')" class="btn btn-grey">8</button>
+            <button type="button" onclick="disp('9')" class="btn btn-grey">9</button>
+            <button type="button" onclick="disp('*')" class="btn btn-yellow">×</button><br>
+            <button type="button" onclick="clearr()" class="btn btn-clear">C</button>
+            <button type="button" onclick="disp('0')" class="btn btn-grey">0</button>
+            <button type="button" onclick="calculate()" class="btn btn-equal">=</button>
+            <button type="button" onclick="disp('/')" class="btn btn-yellow">%</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

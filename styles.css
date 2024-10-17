@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+div {
+    border: 4px solid black ;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+h1{
+    text-align: center;
+}
+
+button {
+    flex: 0 0 22%;
+    margin: 5px 0;
+    border: 1px solid #000;
+    width: 60px;
+    height: 52px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-yellow {
+    background: rgb(245, 146, 62);
+    color: #fff;
+}
+
+.btn-grey {
+    background: rgb(224, 224, 224);
+    color: #000;
+}
+
+.btn-equal {
+    background: green;
+    color: #fff;
+}
+
+.btn-clear {
+    background: red;
+    color: #fff;
+}
